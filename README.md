@@ -1,4 +1,4 @@
-# arduino-more-code
+# arduino-morse-code
 Two-way communication system using four Arduino boards and breadboards, enabling serial communication between sender and receiver pairs.
 
 The main idea of this project is to let two people communicate to each other in morse code using two sets of two Arduino boards, where they are paired together so that one is used as a receiver and one is used as a sender. To send a message we are using three buttons, one to send a dash (‘-’), one to send a dot (‘.’), and an end of letter button to send a ‘$’ so the receiver knows the sequence is over. There will also be a running interval that resets after each button is pressed and if long enough goes by without a button press then the sender will send a ‘\n’ to signal the receiver that the sequence it just received is a word and it’s done being transmitted.
